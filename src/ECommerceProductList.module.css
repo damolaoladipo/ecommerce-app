@@ -1,0 +1,27 @@
+/* src/ECommerceProductList.module.css */
+.eCommerceProductList {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 0;
+  }
+  
+  .viewIcon {
+    position: absolute;
+    right: 80px;
+    bottom: 24px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .chatCrisp {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  

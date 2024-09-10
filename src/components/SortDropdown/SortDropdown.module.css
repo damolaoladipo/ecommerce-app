@@ -1,0 +1,45 @@
+/* src/components/SortDropdown/SortDropdown.module.css */
+.dropdownPacked {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid #dde2e4;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .titleValue {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .buttonTitle1 {
+    font-size: 14px;
+    color: #252c32;
+  }
+  
+  .value3 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .sortSelect {
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #252c32;
+    cursor: pointer;
+  }
+  
+  .sortSelect:focus {
+    outline: none;
+  }
+  
+  .chevronIcon {
+    width: 12px;
+    height: 12px;
+  }
+  

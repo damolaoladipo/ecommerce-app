@@ -1,0 +1,18 @@
+/* src/components/Logo/Logo.module.css */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .chipIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .whatAMarket {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252c32;
+  }
+  

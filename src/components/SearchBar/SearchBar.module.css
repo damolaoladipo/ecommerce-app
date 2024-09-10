@@ -1,0 +1,24 @@
+/* src/components/SearchBar/SearchBar.module.css */
+.textInput {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #dde2e4;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .searchIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .value {
+    flex: 1;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #252c32;
+    border: none;
+    outline: none;
+  }
+  

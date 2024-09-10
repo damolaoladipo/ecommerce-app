@@ -1,0 +1,31 @@
+/* src/components/Checkbox/Checkbox.module.css */
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .box {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dde2e4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkbox1 {
+    width: 10px;
+    height: 10px;
+    background-color: #4094f7;
+    border-radius: 2px;
+  }
+  
+  .title {
+    font-size: 14px;
+    color: #252c32;
+  }
+  

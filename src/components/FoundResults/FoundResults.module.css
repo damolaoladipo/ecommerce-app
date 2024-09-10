@@ -1,0 +1,14 @@
+/* src/components/FoundResults/FoundResults.module.css */
+.foundResultsContainer {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    line-height: 32px;
+    font-weight: 600;
+    color: #252c32;
+    padding: 16px;
+  }
+  
+  .djiPhantom {
+    color: #4094f7;
+  }
+  

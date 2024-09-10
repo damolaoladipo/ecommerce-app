@@ -1,0 +1,49 @@
+/* src/components/Filters/Filters.module.css */
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #dde2e4;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .priceRange {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .textInput {
+    flex: 1;
+  }
+  
+  .value1 {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dde2e4;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #252c32;
+  }
+  
+  .checkboxGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labels {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .quadcopterFeatures,
+  .videoCaptureResolution,
+  .operatorSkillLevel,
+  .brand,
+  .price {
+    font-size: 12px;
+    color: #9aa6ac;
+  }
+  

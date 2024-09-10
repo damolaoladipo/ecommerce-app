@@ -1,0 +1,57 @@
+/* src/components/ProductCard/ProductCard.module.css */
+.card {
+    width: 280px;
+    padding: 16px;
+    border: 1px solid #dde2e4;
+    border-radius: 6px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .productName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252c32;
+    margin-top: 8px;
+  }
+  
+  .ratingCount {
+    font-size: 14px;
+    color: #9aa6ac;
+    margin-top: 4px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252c32;
+    margin-top: 4px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+  }
+  
+  .star {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
